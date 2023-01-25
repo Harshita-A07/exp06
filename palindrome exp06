@@ -1,0 +1,9 @@
+n=input("enter the sentence:")
+if(n==n[::-1]):
+    print("it is a palindrome")
+else:
+    print("it is not palindrome")
+    
+ OUTPUT:
+enter the sentence:malayalam
+it is a palindrome

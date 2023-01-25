@@ -1,0 +1,7 @@
+my_string=input("enter a string:")
+x=len(my_string)
+print(x)
+
+OUTPUT:
+enter a string:morning
+7

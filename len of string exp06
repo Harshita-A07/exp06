@@ -1,7 +1,12 @@
-my_string=input("enter a string:")
-x=len(my_string)
-print(x)
+def length(string):
+   count=0
+   for i in string:
+       count+=1
+   print(count)
+   
+ch=str(input("enter a character:"))
+length(ch)
 
 OUTPUT:
-enter a string:morning
-7
+enter a character:hello
+5
